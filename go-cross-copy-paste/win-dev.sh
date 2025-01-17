@@ -1,0 +1,1 @@
+go run . --filepath "\\\\your-address\\share.txt"
