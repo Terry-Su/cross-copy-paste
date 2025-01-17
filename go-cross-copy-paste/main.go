@@ -34,7 +34,7 @@ func main() {
 		fileContent, err := readFile(filePath)
 		if err != nil && !os.IsNotExist(err) {
 			fmt.Printf("无法读取文件内容: %v\n", err)
-			// 有可能是远程文件，持续无法连接，增加轮询实践
+			// 有可能是远程文件，持续无法连接，增加轮询时间
 			time.Sleep(5 * time.Millisecond)
 			continue
 		}
