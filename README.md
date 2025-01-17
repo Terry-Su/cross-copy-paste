@@ -1,3 +1,4 @@
+![](https://terry-su.github.io/CDN/images/Snipaste_2025-01-17_22-34-01.webp)
 ## 背景
 如今sunshine/moonlight串流技术越来越流行，让我们能够几乎无延迟丝滑从多端远程操作另外一台电脑（win/mac/ubuntu）（体验不是rdp能比的）。虽然串流主要应用场景是游戏，但用来办公体验也远优于普通远程桌面。但串流如果用来办公有个痛点是不支持双向复制粘贴（仅win to win支持单向粘贴文本）。
 另外一个场景是windows自带强大虚拟机hyperv不开启增强模式也无法使用双向复制粘贴。hyperv win/ubuntu在一些使用场景无法使用增强模式，比如win显卡虚拟化，ubuntu稳60帧交互。
